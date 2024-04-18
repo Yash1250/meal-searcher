@@ -96,7 +96,7 @@
 
 
 .recipeContainer{
-    width: 78vw;
+    width: 92vw;
     /* border: 2px solid black; */
     display: flex;
     gap: 3rem;
@@ -251,3 +251,63 @@
 .showRecipe{
     display: flex;
 }
+
+
+@media screen and (max-width: 1097px) {
+    .search{
+        display: flex;
+    width: 32rem;
+    border: 2px solid rgb(255, 123, 0);
+    height: 3rem;
+    border-radius: 50px;
+    overflow: hidden;
+    }
+
+    #RandomBtn{
+        padding: .8rem;
+        font-size: 0.9rem;
+    }
+  }
+@media screen and (max-width: 852px) {
+    .searchContainer{
+       width: 82vw;
+    }
+    .recipeContainer{
+        width: 100vw;
+    }
+  }
+@media screen and (max-width: 654px) {
+    #RandomBtn{
+        width: 13rem;
+    }
+    .searchContainer{
+       width: 95vw;
+       gap: 1rem
+    }
+  }
+@media screen and (max-width: 490px) {
+    .header h1{
+        font-size: 2rem;
+    }
+    .header p{
+        font-size: 0.9rem;
+    }
+    #RandomBtn{
+        height: 2.5rem;
+        padding: 0.6rem;
+    }
+    .search-input{
+        padding: .3rem 0.4rem;
+        font-size: 0.9rem;
+    }
+    .search{
+        height: 2.5rem;
+        width: 34rem;
+    }
+  }
+
+  @media screen and (max-width: 1230px) {
+    .recipeCard{
+        height: 69vh;
+    }
+  }
